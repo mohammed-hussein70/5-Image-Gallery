@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  float: left;
+  padding: 0 6px;
+  width: 25%;
+}
+.container .gallery {
+  border: 1px solid #999;
+  &:hover {
+    border: 1px solid #222222;
+  }
+}
+.container .gallery a img {
+  width: 100%;
+  height: auto;
+}
+.container .gallery .text {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
